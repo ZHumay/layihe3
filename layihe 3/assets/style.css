@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.banklogo{
+    width: 89px;
+height: 23px;
+margin-left: 100px;
+margin-top: 24px;
+}
+.container{
+    width: 1152px;
+height: 700px;
+
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.text{
+
+    margin-left:90px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+.headertext{
+width: 40px;
+height: 19px;
+margin-right: 120px;
+margin-top: 15px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+
+
+letter-spacing: 0.06em;
+color: #959BA4;
+
+}
+.headertext1{
+
+    width: 50px;
+    height: 19px;
+    margin-right: 120px;
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    
+    
+    letter-spacing: 0.06em;
+
+color: #000000;
+
+}
+.headertextson{
+    width: 50px;
+    height: 19px;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.06em;
+
+color: #000000;
+
+}
+
+    h1 {
+        width: 587px;
+        height: 32px;
+     
+        
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+        margin: 156px 0px 67px 253px
+    
+    
+    }
+
+.container1 {
+    display: flex;
+}
+.container2 {
+    margin-left: 253px;
+}
+.container3 {
+    margin-left: 123px;
+}
+.inputarea1 ,.inputarea2 {
+    display: flex;
+    width: 259px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    text-align: center;
+
+}
+.Rub,.Usd,.Eur,.Gbp{
+    width: 63.81px;
+    height: 28px;
+    padding-left:20px;
+    font-family: 'Roboto';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #C6C6C6;
+    border: 1px solid #E5E5E5;
+}
+
+.Rub2,.Usd2,.Eur2,.Gbp2 {
+    width: 63.81px;
+    height: 28px;
+    padding-left:20px;
+    font-family: 'Roboto';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #C6C6C6;
+    border: 1px solid #E5E5E5;
+}
+
+.sol,.sag {
+    width: 120px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #9F9F9F;
+}
+.area {
+    width: 268px;
+    height: 107px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.inputarea1 :hover {
+    background-color: #833AE0;;
+    color: white;
+    cursor: pointer;
+}
+.inputarea2 :hover {
+    background-color: #833AE0;;
+    color: white;
+    cursor: pointer;
+}
+
+.input1,.input2 {
+width: 259px;
+height: 102px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+/* margin-top: 3px;
+margin-left: 10px; */
+border: none;
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width:991px){
+
+
+    .banklogo{
+        width: 49px;
+    height: 13px;
+    margin-left: 10px;
+    margin-top: 30px;
+    }
+    .container{
+        max-width: 32%;
+       min-width: 10%;
+    height: 700px;
+   
+    }
+    .head{
+        display: flex;
+        flex-direction: row;
+        min-width: 12%;
+        justify-content: space-between;
+   
+    
+    }
+    .text{
+       
+        min-width: 12%;
+        margin-left:24px ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* flex-wrap: wrap; */
+        margin-bottom: 4px;
+    
+    }
+    .headertext{
+     min-width: 12%; 
+    
+    height: 9px;
+    margin-right: 10px;
+    margin-left: 34px;
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 13px;
+   
+    letter-spacing: 0.06em;
+    color: #959BA4;
+    
+    }
+    .headertext1{
+        min-width: 10%;
+        
+        height: 9px;
+position:absolute;
+left: 84px;
+        margin-top: 15px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 7px;
+        line-height: 13px;
+        
+        
+        letter-spacing: 0.06em;
+    
+    color: #000000;
+    
+    }
+    .headertextson{
+       max-width:12% ; 
+       min-width: 10%;
+        height: 9px;
+    
+   
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 7px;
+        line-height: 13px;
+        letter-spacing: 0.06em;
+    
+    color: #000000;
+    
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 210px;
+    }
+    h1{
+        margin-left:90px;
+        margin-top: 60px;
+    font-size:18px;
+    }
+    
+    .container2{
+        margin-left: 90px;
+    }
+    .container3 {
+        margin-left: 90px;
+        margin-top: 50px;
+    }
+    .sol{
+        font-size: 15px;
+       
+    }
+    .sag{
+        font-size: 15px;
+        
+    }
+   
+    .inputarea1{
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+        width: 160px;
+        font-size: 14px;
+        margin-top: 3px;
+        margin-bottom: 5px;
+        border: 1px solid #E5E5E5
+        
+    }
+    .Rub{padding-left: 5px;
+        width:40px;
+        border: 1px solid #E5E5E5
+    }
+    .Usd{ width:40px;
+        padding-left: 5px;
+        border: 1px solid #E5E5E5
+    }
+    .Eur{ width:40px;
+        padding-left: 5px;
+        border: 1px solid #E5E5E5
+    }
+    .Gbp{ width:40px;
+        padding-left: 5px;
+        border: 1px solid #E5E5E5
+    }
+    .inputarea2{
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+        width: 160px;
+        font-size: 14px;
+        margin-top: 3px;
+        margin-bottom: 5px;
+        border: 1px solid #E5E5E5;
+      
+    }
+    
+    .Rub2{padding-left: 5px;
+        width:40px;
+        border: 1px solid #E5E5E5;
+    }
+    
+    
+    .Usd2{ width:40px;
+        padding-left: 5px;
+        border: 1px solid #E5E5E5;
+    }
+    .Eur2{ width:40px;
+        padding-left: 5px;
+        border: 1px solid #E5E5E5;
+    }
+    .Gbp2{ width:40px;
+        padding-left: 5px;
+        border: 1px solid #E5E5E5;
+    }
+    .input1{
+        height: 100px;
+        width: 256px ;
+    }
+    .input2{
+       
+        height: 100px;
+        width: 256px ;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
